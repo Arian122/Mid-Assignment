@@ -50,3 +50,33 @@ footer {
     width: 100%;
 }
 
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-store, .featured-products {
+    text-align: center;
+}
+
+
+.featured-products .featured-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.featured-products .featured-images img {
+    width: 45%;
+    height: auto;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
